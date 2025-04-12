@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "paths": {
+      "@controllers/*": ["controllers/*"],
+      "@services/*": ["services/*"],
+      "@repositories/*": ["repositories/*"],
+      "@routes/*": ["routes/*"],
+      "@validations/*": ["validations/*"],
+      "@prisma/*": ["prisma/*"],
+      "@shared/*": ["../../shared/*"]
+    },
+    "baseUrl": "./src",
+    "include": ["src", "prisma"]
+  }
+  
